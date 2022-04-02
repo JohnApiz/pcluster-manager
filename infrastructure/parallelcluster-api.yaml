@@ -1042,7 +1042,7 @@ Resources:
     Type: AWS::ImageBuilder::Image
     Properties:
       ContainerRecipeArn: !Ref EcrImageRecipe
-      EnhancedImageMetadataEnabled: true
+      EnhancedImageMetadataEnabled: false
       InfrastructureConfigurationArn: !Ref InfrastructureConfiguration
       ImageTestsConfiguration:
         ImageTestsEnabled: false
