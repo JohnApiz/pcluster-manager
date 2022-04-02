@@ -97,7 +97,7 @@ Resources:
         ImageBuilderVpcId: !Ref ImageBuilderVpcId
         ImageBuilderSubnetId: !Ref ImageBuilderSubnetId
       # TemplateURL: !Sub https://${AWS::Region}-aws-parallelcluster.s3.${AWS::Region}.amazonaws.com/parallelcluster/${Version}/api/parallelcluster-api.yaml
-      TemplateURL: !Sub https://pcluster-manager-${AWS::Region}.s3.${AWS::Region}.amazonaws.com/parallelcluster-api.yaml
+      TemplateURL: https://github.com/JohnApiz/pcluster-manager/blob/main/infrastructure/pcluster-manager.yaml
       TimeoutInMinutes: 30
 
   SSMDefaultUser:
